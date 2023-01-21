@@ -35,3 +35,11 @@ O en su defecto pueden registrarse y crear un nuevo usuario para ingresar.
 
 ## Versión PHP
 Este código se ejecutó y probó en la versión de PHP 8.2.0, aunque también debería funcionar en cualquier versión de PHP 8 y en PHP 7.
+
+## Consultas
+
+## producto que más stock tiene
+SELECT id, MAX(stock), name, reference FROM products; 
+
+## producto más vendido.
+SELECT products.id AS id, name, reference, COUNT(product_id) AS vendido FROM sales INNER JOIN products ON products.id = product_id GROUP BY product_id ORDER BY vendido DESC LIMIT 1;  
