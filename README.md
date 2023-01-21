@@ -1,6 +1,9 @@
 ## PRUEBA TÉCNICA PHP
 ## Konecta
 
+Nombre: John Mario Cadavid García
+Fecha: Enero 21 de 2023
+
 ## Instrucciones de Instalación
 
 Repositorio:
